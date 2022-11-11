@@ -10,9 +10,10 @@
 		424ABCFB291E14B700F48822 /* dummyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424ABCD3291E14AF00F48822 /* dummyAppApp.swift */; };
 		424ABCFC291E14B700F48822 /* dummyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424ABCD3291E14AF00F48822 /* dummyAppApp.swift */; };
 		424ABCFD291E14B700F48822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424ABCD4291E14AF00F48822 /* ContentView.swift */; };
-		424ABCFE291E14B700F48822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424ABCD4291E14AF00F48822 /* ContentView.swift */; };
 		424ABCFF291E14B700F48822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424ABCD5291E14B600F48822 /* Assets.xcassets */; };
 		424ABD00291E14B700F48822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424ABCD5291E14B600F48822 /* Assets.xcassets */; };
+		424ABD19291E248A00F48822 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424ABD18291E248A00F48822 /* Icon.swift */; };
+		424ABD1A291E248A00F48822 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424ABD18291E248A00F48822 /* Icon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		424ABCE0291E14B600F48822 /* dummyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dummyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		424ABCE7291E14B700F48822 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		424ABCF3291E14B700F48822 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		424ABD18291E248A00F48822 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				424ABCD3291E14AF00F48822 /* dummyAppApp.swift */,
 				424ABCD4291E14AF00F48822 /* ContentView.swift */,
+				424ABD18291E248A00F48822 /* Icon.swift */,
 				424ABCD5291E14B600F48822 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				424ABD19291E248A00F48822 /* Icon.swift in Sources */,
 				424ABCFD291E14B700F48822 /* ContentView.swift in Sources */,
 				424ABCFB291E14B700F48822 /* dummyAppApp.swift in Sources */,
 			);
@@ -270,7 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				424ABCFE291E14B700F48822 /* ContentView.swift in Sources */,
+				424ABD1A291E248A00F48822 /* Icon.swift in Sources */,
 				424ABCFC291E14B700F48822 /* dummyAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

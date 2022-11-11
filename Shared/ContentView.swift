@@ -9,8 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Icon()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+        VStack(alignment: .leading) {
+            Text("Hack Degens")
+                .font(.title)
+            HStack {
+                Text("idk what we making")
+                    .font(.subheadline)
+                Spacer()
+                Text("2022")
+                    .font(.subheadline)
+            }
+        }
+        .padding()
+    }
     }
 }
 
