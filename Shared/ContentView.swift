@@ -145,7 +145,15 @@ struct ContentView: View {
                 
 
                 VStack {
-                    
+                    Text("Beta Risk Meter")
+
+                        .frame(maxWidth: .infinity, alignment: .leading)
+
+                       // .padding(.top, 15)
+
+                        .padding(.leading, 12)
+
+                        .font(.system(size:30, weight:.bold))
                     Meter()
                         
                     

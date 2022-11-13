@@ -55,7 +55,6 @@
 		424ABCD2291E14AF00F48822 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				424ABCD3291E14AF00F48822 /* dummyAppApp.swift */,
 				424ABCD4291E14AF00F48822 /* ContentView.swift */,
 				424ABD18291E248A00F48822 /* Icon.swift */,
 				424ABCD5291E14B600F48822 /* Assets.xcassets */,
@@ -64,6 +63,7 @@
 				18214BF12920D9CD005F0962 /* ProfileView.swift */,
 				18214BF32920DC7D005F0962 /* HomeScreenView.swift */,
 				18214BF72920E86F005F0962 /* NewsCard.swift */,
+				424ABCD3291E14AF00F48822 /* dummyAppApp.swift */,
 				188A33272921463000724C2A /* AddStockView.swift */,
 			);
 			path = Shared;
