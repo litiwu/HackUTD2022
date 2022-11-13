@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18214BEA29208BEC005F0962 /* TestPage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18214BE929208BEC005F0962 /* TestPage1.swift */; };
+		18214BEE29209FEA005F0962 /* Meter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18214BED29209FEA005F0962 /* Meter.swift */; };
+		18214BF22920D9CD005F0962 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18214BF12920D9CD005F0962 /* ProfileView.swift */; };
+		18214BF42920DC7D005F0962 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18214BF32920DC7D005F0962 /* HomeScreenView.swift */; };
 		424ABCFB291E14B700F48822 /* dummyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424ABCD3291E14AF00F48822 /* dummyAppApp.swift */; };
 		424ABCFD291E14B700F48822 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 424ABCD4291E14AF00F48822 /* ContentView.swift */; };
 		424ABCFF291E14B700F48822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 424ABCD5291E14B600F48822 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18214BE929208BEC005F0962 /* TestPage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPage1.swift; sourceTree = "<group>"; };
+		18214BED29209FEA005F0962 /* Meter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meter.swift; sourceTree = "<group>"; };
+		18214BF12920D9CD005F0962 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		18214BF32920DC7D005F0962 /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
 		424ABCD3291E14AF00F48822 /* dummyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummyAppApp.swift; sourceTree = "<group>"; };
 		424ABCD4291E14AF00F48822 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		424ABCD5291E14B600F48822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 				424ABCD4291E14AF00F48822 /* ContentView.swift */,
 				424ABD18291E248A00F48822 /* Icon.swift */,
 				424ABCD5291E14B600F48822 /* Assets.xcassets */,
+				18214BE929208BEC005F0962 /* TestPage1.swift */,
+				18214BED29209FEA005F0962 /* Meter.swift */,
+				18214BF12920D9CD005F0962 /* ProfileView.swift */,
+				18214BF32920DC7D005F0962 /* HomeScreenView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -87,7 +99,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					424ABCD9291E14B600F48822 = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -128,8 +140,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18214BEA29208BEC005F0962 /* TestPage1.swift in Sources */,
 				424ABD19291E248A00F48822 /* Icon.swift in Sources */,
+				18214BEE29209FEA005F0962 /* Meter.swift in Sources */,
 				424ABCFD291E14B700F48822 /* ContentView.swift in Sources */,
+				18214BF22920D9CD005F0962 /* ProfileView.swift in Sources */,
+				18214BF42920DC7D005F0962 /* HomeScreenView.swift in Sources */,
 				424ABCFB291E14B700F48822 /* dummyAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,6 +186,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -228,6 +245,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
